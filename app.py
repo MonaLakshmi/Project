@@ -147,7 +147,7 @@ def process_files():
     
     
     
-    return render_template('result.html', event_count_matrix=df8.to_html(),
+    return render_template('home.html', event_count_matrix=df8.to_html(),
                            decision_tree_accuracy=decision_tree_accuracy,
                            decision_tree_precision=decision_tree_precision,
                            decision_tree_f1_score=decision_tree_f1_score,
